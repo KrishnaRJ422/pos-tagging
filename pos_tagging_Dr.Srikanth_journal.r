@@ -4,8 +4,6 @@ devtools::install_github("trinker/tagger")
 install.packages("qdap")
 devtools::install_github("bnosac/RDRPOSTagger")
 
-system("java -version")
-
 library(tagger)
 
 library(dplyr)
@@ -25,12 +23,6 @@ pacman::p_load_gh(
   "rstudio/rmarkdown",
   "trinker/reports"
 )
-
-devtools::install_github("trinker/termco")
-devtools::install_github("trinker/coreNLPsetup")
-devtools::install_github("trinker/tagger")
-#install.packages("qdap")
-devtools::install_github("bnosac/RDRPOSTagger")
 
 library(textreadr)
 dt=read_doc("C:/Users/krish/Downloads/Srikanth_Itapu_final.doc")
